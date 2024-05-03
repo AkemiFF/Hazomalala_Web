@@ -1,0 +1,173 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url(../webfonts/Poppins/Poppins-Regular.ttf);
+}
+
+* {
+    font-family: 'Poppins';
+    font-size: 0.97em;
+}
+
+.kanit-font {
+    font-family: 'Kanit';
+}
+
+.bg-blue {
+    background-color: #476fb8;
+}
+
+.navbar-dashboard {
+    position: fixed;
+    max-width: 16rem;
+    min-height: 19rem;
+    background-color:#2d4f8d;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.custom-img-icon {
+    width: 18px;
+    filter: invert(100);
+}
+
+.custom-btn-burger-dash {
+    cursor : pointer;
+    font-size: 1.25em;
+    height : 2.5rem;
+}
+
+.custom-btn-burger-dash:hover {
+    border : 1px solid rgb(233, 231, 231);
+    transition : all 0.3s linear;
+}
+
+.menu-block {
+    width: 16rem;
+    transition : width 0.3s linear;
+}
+
+.menu-collapse {
+    width: 5rem;
+    transition : width 0.3s linear;
+}
+
+.bg-hover:hover {
+    background-color: rgba(0, 0, 0, 0.075) !important;
+    padding : -3rem;
+}
+
+.link-hover1, .link-hover2, .link-hover3 {
+    padding-left: 3.65rem;
+}
+
+.link-hover4 {
+    padding-left: 3.25rem;
+}
+
+.link-hover, .link-hover1:hover, .link-hover2:hover, .link-hover3:hover, .link-hover4:hover {
+    color: rgb(209, 207, 207);
+}
+
+.nav-pills.active {
+    transition : all 0.3s linear
+}
+
+.custom-m-product {
+    margin-left: 5.25rem;
+}
+
+.custom-m-person {
+    margin-left: 6.25rem;
+}
+
+.logo-show {
+    opacity: 1;
+    transition: all 0.3s linear;
+}
+
+.logo-collapse {
+    opacity: 0;
+    transition: all 0.2s linear;
+}
+
+.link-collapse {
+    display: none;
+    height: 0;
+    transition: all 0.2s linear;
+}
+
+.link-show {
+    display: block;
+    height: auto;
+    transition: all 0.2s linear;
+}
+
+.a-collapse {
+    display: none;
+    transition : all 0.3s linear 
+}
+
+.a-hidden {
+    opacity : 0;
+    transition: opacity 0.2s linear;
+}
+
+.a-visible {
+    opacity : 1;
+    transition: opacity 0.2s linear;
+}
+
+.a-show {
+    display: block;
+    opacity : 1;
+    transition : all 0.2s linear 
+}
+
+.icon-down-hidden {
+    opacity : 0;
+    transition: opacity 0.1s linear;
+}
+
+.icon-down-show {
+    opacity : 1;
+    transition: opacity 0.1s linear;
+}
+
+.custom-position-command {
+    top : 9.5rem;
+    font-size: 0.9em;
+    z-index: -300;
+}
+
+.custom-position-product {
+    top : 12.5rem;
+    font-size: 0.9em;
+    z-index: -300;
+}
+
+.custom-position-user {
+    top : 15.5rem;
+    font-size: 0.9em;
+    z-index: -300;
+}
+
+.custom-position-pharma {
+    top : 18.5rem;
+    font-size: 0.9em;
+    z-index: -300;
+}
+
+.nav-icon-hidden {
+    left: -3.5rem;
+    opacity : 0;
+    transition: all 0.3s linear;
+}
+
+.nav-icon-show {
+    left: 6rem;
+    opacity : 1;
+    transition: all 0.3s linear;
+}
+
+
+

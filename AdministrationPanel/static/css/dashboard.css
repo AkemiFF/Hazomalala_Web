@@ -1,0 +1,11 @@
+.main-dashboard {
+    padding-top: 1.5rem;
+    margin-left: 18.5rem;
+    transition: margin 0.3s linear;
+}
+
+.main-responsive {
+    padding-top: 1.5rem;
+    margin-left: 7rem;
+    transition: margin 0.3s linear;
+}

@@ -1,0 +1,14 @@
+{% extends 'inc/base.html' %}
+{% load static %}
+
+{% block body %}
+    <body>
+        {% include 'inc/navbar.html' %}
+
+        {% block main %}
+            <main class="main-dashboard" id = "main-dashboard">
+                <h1 class = "h4">Tableau de bord</h1>
+            </main>
+        {% endblock %}
+    </body>
+{% endblock %}
