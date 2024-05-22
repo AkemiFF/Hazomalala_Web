@@ -1,0 +1,14 @@
+/* colors */
+
+/* Header part */
+.ui_header {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    height: 6em;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 8em;
+}
+
+/* Footer part */
