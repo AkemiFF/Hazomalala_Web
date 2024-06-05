@@ -1,0 +1,14 @@
+.product-container {
+    border-radius: 25px;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+
+@media (min-width: 576px) {
+    .col-sm-2 {
+        flex: 0 0 auto;
+        width: 13.2%;
+    }
+}
