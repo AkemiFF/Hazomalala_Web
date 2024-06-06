@@ -1,14 +1,15 @@
-{% extends 'inc/base.html' %}
-{% load static %}
+{% extends "layout/main.html" %}
 
 {% block body %}
     <body>
-        {% include 'inc/navbar.html' %}
+        {% include 'inc/menu.html' %}
 
         {% block main %}
-            <main class="main-dashboard" id = "main-dashboard">
-                <h1 class = "h4">Tableau de bord</h1>
-            </main>
+        <main class = "mx-5">
+            {% include 'inc/feature.html' %}
+        </main>
+              
         {% endblock %}
     </body>
+   
 {% endblock %}

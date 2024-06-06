@@ -1,3 +1,13 @@
+:root {
+    --main-accent-color: #cee9f2;
+    --main-focus-accent-color: #050e47;
+}
+
+@font-face {
+    font-family: 'Exo2';
+    src: url(../webfonts/exo2/static/Exo2-ExtraBold.ttf);
+}
+
 @font-face {
     font-family: 'Poppins';
     src: url(../webfonts/Poppins/Poppins-Regular.ttf);
@@ -8,165 +18,61 @@
     font-size: 0.97em;
 }
 
-.kanit-font {
-    font-family: 'Kanit';
+.exo2-font {
+    font-family: 'Exo2';
 }
 
-.bg-blue {
-    background-color: #476fb8;
+.text-marin-blue {
+    color : var(--main-focus-accent-color);
 }
 
-.navbar-dashboard {
-    position: fixed;
-    max-width: 16rem;
-    min-height: 19rem;
-    background-color:#2d4f8d;
-    height: 100%;
-    overflow-y: auto;
+.text-cloud-blue {
+    color : var(--main-accent-color);
 }
 
-.custom-img-icon {
-    width: 18px;
-    filter: invert(100);
+.bg-marin-blue {
+    background-color : var(--main-focus-accent-color);
 }
 
-.custom-btn-burger-dash {
+.bg-cloud-blue {
+    background-color : var(--main-accent-color);
+}
+
+.custom-logo-img-dashboard {
+    width : 6.5rem;
+    margin-right: -1rem;
+}
+
+.custom-font-menu-admin {
+    font-size: 1.15em;
+}
+
+.custom-menu-container {
+    padding : 1.5rem;
+    height : 30%;
+    border-radius: 35px;
+    margin-left: -3.5rem;
+}
+
+.custom-search-bar-menu {
+    height : 2rem;
+    border-radius: 25px;
+    text-indent : 0.5rem;
+    font-size: 0.9em;
+}
+
+.custom-icon-input-search {
+    top : -0.15rem;
+    right : 0.25rem;
+}
+
+.custom-icon-feature-container {
+    margin-top: 2.15rem;
+}
+
+.custom-icon-feature-dashboard {
+    font-size: 1.35em;
     cursor : pointer;
-    font-size: 1.25em;
-    height : 2.5rem;
-}
-
-.custom-btn-burger-dash:hover {
-    border : 1px solid rgb(233, 231, 231);
-    transition : all 0.3s linear;
-}
-
-.menu-block {
-    width: 16rem;
-    transition : width 0.3s linear;
-}
-
-.menu-collapse {
-    width: 5rem;
-    transition : width 0.3s linear;
-}
-
-.bg-hover:hover {
-    background-color: rgba(0, 0, 0, 0.075) !important;
-    padding : -3rem;
-}
-
-.link-hover1, .link-hover2, .link-hover3 {
-    padding-left: 3.65rem;
-}
-
-.link-hover4 {
-    padding-left: 3.25rem;
-}
-
-.link-hover, .link-hover1:hover, .link-hover2:hover, .link-hover3:hover, .link-hover4:hover {
-    color: rgb(209, 207, 207);
-}
-
-.nav-pills.active {
-    transition : all 0.3s linear
-}
-
-.custom-m-product {
-    margin-left: 5.25rem;
-}
-
-.custom-m-person {
-    margin-left: 6.25rem;
-}
-
-.logo-show {
-    opacity: 1;
-    transition: all 0.3s linear;
-}
-
-.logo-collapse {
-    opacity: 0;
-    transition: all 0.2s linear;
-}
-
-.link-collapse {
-    display: none;
-    height: 0;
-    transition: all 0.2s linear;
-}
-
-.link-show {
-    display: block;
-    height: auto;
-    transition: all 0.2s linear;
-}
-
-.a-collapse {
-    display: none;
-    transition : all 0.3s linear 
-}
-
-.a-hidden {
-    opacity : 0;
-    transition: opacity 0.2s linear;
-}
-
-.a-visible {
-    opacity : 1;
-    transition: opacity 0.2s linear;
-}
-
-.a-show {
-    display: block;
-    opacity : 1;
-    transition : all 0.2s linear 
-}
-
-.icon-down-hidden {
-    opacity : 0;
-    transition: opacity 0.1s linear;
-}
-
-.icon-down-show {
-    opacity : 1;
-    transition: opacity 0.1s linear;
-}
-
-.custom-position-command {
-    top : 9.5rem;
-    font-size: 0.9em;
-    z-index: -300;
-}
-
-.custom-position-product {
-    top : 12.5rem;
-    font-size: 0.9em;
-    z-index: -300;
-}
-
-.custom-position-user {
-    top : 15.5rem;
-    font-size: 0.9em;
-    z-index: -300;
-}
-
-.custom-position-pharma {
-    top : 18.5rem;
-    font-size: 0.9em;
-    z-index: -300;
-}
-
-.nav-icon-hidden {
-    left: -3.5rem;
-    opacity : 0;
-    transition: all 0.3s linear;
-}
-
-.nav-icon-show {
-    left: 6rem;
-    opacity : 1;
-    transition: all 0.3s linear;
 }
 
 

@@ -1,0 +1,46 @@
+{% extends 'layout/main.html' %}
+{% load static %}
+
+{% block section %}
+    <section class = "float-end custom-feature-dashboard-section">
+        <section class = "schedule-time bg-white shadow rounded">
+            <div class = "d-flex flex-row p-3">
+                <div class = "bg-cloud-blue custom-current-date">
+                    <p id = "day" class = "fw-bolder fs-3"></p>
+                </div>
+
+                <div class = "ms-3 mt-3">
+                    <p id = "dayOfWeek" class = "fs-6"></p>
+                    <p id = "month" class = "fs-6 custom-current-month"></p>
+                </div>
+
+                <div class = "ms-3 mt-3">
+                    <p class = "fs-2">|</p>
+                </div>
+
+                <a href = "" class = "btn text-light bg-marin-blue custom-stock-btn ms-2 mt-3 fs-6 text-decoration-none">Stock <i class = "fa fa-arrow-right ms-3"></i></a>
+            </div>
+
+            <div id="calendar-container" class = "calendar-container"></div>
+
+        </section>
+
+    </section>
+
+    {% block scripts %}
+        {{ block.super }}
+            <script>
+                const current_date = "{{ current_date }}";
+                document.addEventListener('DOMContentLoaded', function() {
+                    const day = current_date.split('-')[2];
+                    const dayOfWeek = new Date(current_date).toLocaleString('fr-FR', { weekday: 'long' });
+                    const month = new Date(current_date).toLocaleString('fr-FR', { month: 'long' });
+
+                    document.getElementById('day').innerText = day;
+                    document.getElementById('dayOfWeek').innerText = dayOfWeek;
+                    document.getElementById('month').innerText = month;
+                });
+            </script>
+        {% endblock %}
+
+{% endblock %}

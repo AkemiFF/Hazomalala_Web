@@ -1,0 +1,47 @@
+.custom-feature-dashboard-section {
+    width : 24.25%;
+    margin-top: -0.5rem;
+}
+
+.custom-font-current-date {
+    font-size: 1em;
+}
+
+.custom-current-date {
+    width : 3.5rem;
+    height : 4rem;
+    border-radius: 45%;
+    padding-top : 0.75rem;
+    padding-left : 0.85rem;
+}
+
+.custom-current-month {
+    margin-top: -1rem;
+}
+
+.custom-stock-btn {
+    border-radius: 25px;
+    height: 2.5rem;
+}
+
+.custom-stock-btn:hover {
+    background-color: var(--main-focus-accent-color)
+}
+
+.flatpickr-months {
+    background-color: var(--main-focus-accent-color);
+    color: white; 
+}
+
+.flatpickr-month {
+    color: white ! important; 
+    font-size: 0.85em;
+}
+
+.flatpickr-prev-month, .flatpickr-next-month {
+  margin-top: -0.35rem;
+}
+
+.flatpickr-prev-month svg, .flatpickr-next-month svg {
+    fill: white; 
+}

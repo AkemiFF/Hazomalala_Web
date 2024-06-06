@@ -1,0 +1,35 @@
+{% extends 'layout/main.html' %}
+{% load static %}
+
+{% block header %}
+    <header class = "d-flex flex-row justify-content-between mx-5 mt-2">
+        <div>
+            <a href="" class = "text-marin-blue exo2-font fw-bolder fs-4 text-decoration-none"><img src="{% static 'images/logo/PNG/logo-hazomalala-bleu-nuit.png' %}" alt="Logo de Hazomalala" class = "img-fluid custom-logo-img-dashboard">  
+                    HAZOMALALA
+            </a>
+        </div>
+
+        <div class = "d-flex flex-row mt-4">
+            <nav class = "navbar navbar-expand bg-cloud-blue custom-menu-container">
+                <ul class = "navbar-nav">
+                    <li class = "nav-item"><a href="" class = "nav-link custom-font-menu-admin fw-bolder link-dark me-3">Tableau de bord</a></li> 
+                    <li class = "nav-item"><a href="" class = "nav-link custom-font-menu-admin fw-bolder link-dark me-3">Stocks</a></li> 
+                    <li class = "nav-item"><a href="" class = "nav-link custom-font-menu-admin fw-bolder link-dark me-3">Statistiques</a></li> 
+                    <li class = "nav-item"><a href="" class = "nav-link custom-font-menu-admin fw-bolder link-dark">Produits</a></li> 
+                </ul>
+            </nav>
+
+            <form class = "ms-4 mt-2 position-relative">
+                <input type="search" name="searchBar" id="searchBar" class = "form-control custom-search-bar-menu" placeholder= "Rechercher">
+                <button type="submit" class = "btn custom-icon-input-search position-absolute"><i class="fa fa-search bg-white"></i></button>
+            </form>
+        </div>
+        
+        <div class = "custom-icon-feature-container">
+            <i class = "fa fa-bell custom-icon-feature-dashboard me-5" title = "Notification"></i>
+            <i class = "fa fa-message custom-icon-feature-dashboard me-3" title = "Message"></i>
+            <i class = "fa fa-gear custom-icon-feature-dashboard me-3" title = "Paramètres"></i>
+            <i class = "fa fa-user-circle custom-icon-feature-dashboard" title = "Profil"></i>
+        </div>
+    </header>
+    {% endblock %}
