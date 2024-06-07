@@ -1,0 +1,181 @@
+.custom-dashboard {
+    margin-left: 18.25rem;
+}
+
+.custom-order-manager-dashboard {
+    width : 47rem;
+    margin-top: 1rem;
+}
+
+.custom-order-realtime {
+    font-size: 0.97em;
+}
+
+.custom-order-realtime:hover {
+    background-color: var(--main-accent-color);
+}
+
+.custom-title-order-dashboard {
+    font-size : 1.25em;
+    font-weight: bold;
+}
+
+.custom-statut-order-dashboard {
+    width : 80%;
+    border-radius: 35px;
+    height: 1.5rem;
+    padding-top : 0.25rem;
+}
+
+.custom-sale-container {
+    width : 47rem;
+}
+
+.custom-analysis-section-container {
+    border-radius: 50px;
+}
+
+.custom-analysis-item {
+    border-radius: 30px;
+}
+
+.custom-btn-profit-overview {
+    width : 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    transition : all .3s linear;
+}
+
+.custom-icon-profit-overview {
+    width : 1rem;
+    margin-top: -0.25rem;
+    margin-left: -0.25rem;
+}
+
+.custom-btn-profit-overview:hover {
+    transition : all .3s linear;
+    width : 7rem;
+    border-radius: 35px;
+}
+
+.custom-btn-profit-overview:hover .custom-icon-profit-overview {
+    width : 1rem;
+    transition : all .3s linear;
+}
+
+.custom-text-profit-overview {
+    opacity: 0;
+    font-size: 0.85em;
+    transition: opacity .3s linear;
+    margin: -1.3rem 0rem 0rem 1rem;
+}
+
+.custom-btn-profit-overview:hover .custom-text-profit-overview {
+    opacity: 1;
+    transition : all .3s linear;
+}
+
+.custom-epoque-container {
+    height: 1.8rem;
+    border-radius: 30px;
+    width : 10rem;
+    cursor : pointer;
+}
+
+.custom-epoque-container-child {
+    background-color: var(--main-focus-accent-color);
+    margin-top : 0rem;
+    height: 1.8rem;
+    border-radius: 30px;
+    padding: 0.25rem 1rem 1.5rem 1rem;
+}
+
+.custom-epoque-classic {
+    height: 1.8rem;
+    border-radius: 30px;
+    padding: 0.25rem 1rem 1.5rem 1rem;
+}
+
+.custom-epoque-year {
+    margin-top: -0.15rem;
+    font-size: 0.9em;
+    height : 2rem;
+}
+
+.custom-remise-container {
+    border-radius: 60px;
+}
+
+.custom-btn-remise-overview {
+    width : 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    transition : all .3s linear;
+}
+
+.custom-icon-remise-overview {
+    width : 1rem;
+    margin-top: -0.25rem;
+    margin-left: -0.25rem;
+}
+
+.custom-btn-remise-overview:hover {
+    transition : all .3s linear;
+    width : 7rem;
+    border-radius: 35px;
+}
+
+.custom-btn-remise-overview:hover .custom-icon-remise-overview {
+    width : 1rem;
+    transition : all .3s linear;
+}
+
+.custom-text-remise-overview {
+    opacity: 0;
+    font-size: 0.85em;
+    transition: opacity .3s linear;
+    margin: -1.3rem 0rem 0rem 1rem;
+}
+
+.custom-btn-remise-overview:hover .custom-text-remise-overview {
+    opacity: 1;
+    transition : all .3s linear;
+}
+
+.custom-title-remise {
+    font-size : 1.05em;
+}
+
+.custom-icon-remise-item-container {
+    width : 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 0.5rem 0rem 0rem 0.5rem;
+    margin: 0rem 2rem 0rem 1.25rem;
+    cursor: pointer;
+}
+
+.custom-icon-remise-item {
+    width : 25px;
+    height : 25px;
+}
+
+.custom-text-remise-item-container {
+    border: 2px solid var(--main-focus-accent-color);
+    border-radius: 25px;
+    height : 2.25rem;
+    width : 11rem;
+    padding: -0.5rem 0rem 0rem 1rem;
+    cursor: pointer;
+}
+
+.custom-date-remise {
+    border : 2px solid var(--main-focus-accent-color);
+    border-radius: 35px;
+    width : 5rem;
+    height : 2.25rem;
+}

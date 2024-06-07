@@ -1,6 +1,7 @@
 :root {
     --main-accent-color: #cee9f2;
     --main-focus-accent-color: #050e47;
+    --main-secondary-accent-color : rgb(214, 214, 214);
 }
 
 @font-face {
@@ -15,7 +16,7 @@
 
 * {
     font-family: 'Poppins';
-    font-size: 0.97em;
+    font-size: 0.97em ;
 }
 
 .exo2-font {
@@ -34,46 +35,50 @@
     background-color : var(--main-focus-accent-color);
 }
 
+.bg-marin-blue:hover {
+    background-color : var(--main-focus-accent-color);
+}
+
 .bg-cloud-blue {
     background-color : var(--main-accent-color);
 }
 
-.custom-logo-img-dashboard {
-    width : 6.5rem;
-    margin-right: -1rem;
+.bg-cloud-blue:hover {
+    background-color : var(--main-accent-color);
 }
 
-.custom-font-menu-admin {
-    font-size: 1.15em;
+.bg-gray {
+    background-color: var(--main-secondary-accent-color);
+}
+
+.bg-hover:hover {
+    background-color: #badbe6;
+}
+
+.custom-logo-img-dashboard {
+    width : 4rem;
+}
+
+.custom-menu-icon {
+    width: 18px;
+    opacity: .8;
+}
+
+.custom-icon-setting {
+    margin-top: 7.5rem;
+}
+
+.custom-ps-menu {
+    padding-left: 2.5rem;
 }
 
 .custom-menu-container {
-    padding : 1.5rem;
-    height : 30%;
-    border-radius: 35px;
-    margin-left: -3.5rem;
+    position: fixed;
+    width: 17rem;
+    min-height: 19rem;
+    height: 100%;
 }
 
-.custom-search-bar-menu {
-    height : 2rem;
-    border-radius: 25px;
-    text-indent : 0.5rem;
-    font-size: 0.9em;
-}
-
-.custom-icon-input-search {
-    top : -0.15rem;
-    right : 0.25rem;
-}
-
-.custom-icon-feature-container {
-    margin-top: 2.15rem;
-}
-
-.custom-icon-feature-dashboard {
-    font-size: 1.35em;
-    cursor : pointer;
-}
 
 
 

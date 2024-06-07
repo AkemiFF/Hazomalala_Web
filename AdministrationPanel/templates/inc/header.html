@@ -1,0 +1,20 @@
+{% extends 'layout/main.html' %}
+{% load static %}
+
+{% block header %}
+    <header class = "d-flex flex-row justify-content-between custom-header-admin g-white shadow-sm rounded pt-4 pb-3">
+        <h1 class = "h4 ms-4 exo2-font"><i class = "fa fa-bars ms-2 me-4"></i>Tableau de bord</h1>
+
+
+        <form class = "position-relative">
+            <input type="search" name="searchBar" id="searchBar" class = "form-control custom-searchbar-header" placeholder="Rechercher">
+            <i class = "fa fa-search position-absolute custom-search-icon bg-white"></i>
+        </form>
+
+        <div class = "d-flex flex-row justify-content-between">
+            <i class = "fa fa-message custom-icon-header me-4 mt-2"></i>
+            <i class = "fa fa-bell custom-icon-header me-5 mt-2"></i>
+            <i class = "fa fa-user-circle custom-icon-header me-5 mt-2"></i>
+        </div>
+    </header>
+{% endblock %}

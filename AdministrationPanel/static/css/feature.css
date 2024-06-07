@@ -1,6 +1,7 @@
 .custom-feature-dashboard-section {
     width : 24.25%;
-    margin-top: -0.5rem;
+    margin-top: 0.75rem;
+    margin-left: 0.75rem;
 }
 
 .custom-font-current-date {
@@ -17,6 +18,10 @@
 
 .custom-current-month {
     margin-top: -1rem;
+}
+
+.calendar-container {
+    margin-top: -0.75rem;
 }
 
 .custom-stock-btn {

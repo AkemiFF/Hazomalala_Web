@@ -1,0 +1,21 @@
+.custom-header-admin {
+    margin-left: 17rem;
+}
+
+.custom-searchbar-header {
+    border-radius: 30px;
+    height: 2rem;
+    font-size: 0.95em;
+    width : 25rem;
+    text-indent: 1rem;
+}
+
+.custom-icon-header {
+    font-size: 1.35em;
+    cursor : pointer;
+}
+
+.custom-search-icon {
+    top: 0.5rem;
+    right: 1rem;
+}

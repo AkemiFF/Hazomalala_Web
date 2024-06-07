@@ -2,8 +2,8 @@
 {% load static %}
 
 {% block section %}
-    <section class = "float-end custom-feature-dashboard-section">
-        <section class = "schedule-time bg-white shadow rounded">
+    <section class = "custom-feature-dashboard-section bg-white rounded shadow-sm">
+        <section class = "schedule-time">
             <div class = "d-flex flex-row p-3">
                 <div class = "bg-cloud-blue custom-current-date">
                     <p id = "day" class = "fw-bolder fs-3"></p>
@@ -18,12 +18,13 @@
                     <p class = "fs-2">|</p>
                 </div>
 
-                <a href = "" class = "btn text-light bg-marin-blue custom-stock-btn ms-2 mt-3 fs-6 text-decoration-none">Stock <i class = "fa fa-arrow-right ms-3"></i></a>
             </div>
 
             <div id="calendar-container" class = "calendar-container"></div>
 
         </section>
+
+        <a href = "" class = "btn text-light bg-marin-blue d-block custom-stock-btn mt-3 fs-6 text-decoration-none">Stock <i class = "fa fa-arrow-right ms-3"></i></a>
 
     </section>
 

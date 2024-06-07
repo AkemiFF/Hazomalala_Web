@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
     function getDayOfWeekName(dayOfWeek) {
         const daysOfWeek = ["Dimanche", "Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi"];
         return daysOfWeek[dayOfWeek];
-      }
+    }
 
     function getMonthName(month) {
         const months = ["Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Décembre"];
