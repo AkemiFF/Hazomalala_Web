@@ -4,6 +4,14 @@
     margin-left: 0.75rem;
 }
 
+.custom-icon-add-plan-container {
+    margin-top: 2.5rem;
+}
+
+.custom-icon-add-plan {
+    margin-left: -3rem;
+}
+
 .custom-font-current-date {
     font-size: 1em;
 }
@@ -49,4 +57,61 @@
 
 .flatpickr-prev-month svg, .flatpickr-next-month svg {
     fill: white; 
+}
+
+.custom-title-update-product {
+    font-size: 1.1em;
+}
+
+.custom-update-product-container {
+    height: 2.5rem;
+    border-radius: 25px;
+    width : 9rem;
+}
+
+.custom-text-update-product {
+    font-size: 0.9em;
+}
+
+.custom-icon-form-product {
+    top : 0rem;
+    right : 1rem;
+    cursor : pointer;
+}
+
+.custom-input-product {
+    border : none;
+    outline : none;
+    border-bottom: 1px solid var(--main-focus-accent-color);
+    font-size: 1em;
+    width : 95%;
+    padding-bottom: 7.5px;
+}
+
+.custom-btn-form-product {
+    border-radius: 20px;
+    font-size: 1.1em;
+}
+
+.custom-total-container {
+    border-radius: 35px;
+    height: 5rem;
+    padding : 1rem 2rem 0rem 2rem;
+}
+
+.custom-text-total {
+    font-size : 0.95em;
+}
+
+.custom-total-stat {
+    margin-top: -0.5rem;
+}
+
+.custom-icon-total {
+    width : 45px;
+    margin-top: 0.25rem;
+}
+
+.custom-btn-stat {
+    font-size: 1em;
 }

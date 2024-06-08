@@ -19,7 +19,16 @@
             <a href="" class = "nav-link mt-2 custom-ps-menu bg-hover fw-bolder"><i class = "fa fa-users me-3"></i> Entité</a>
             <a href="" class = "nav-link mt-2 custom-ps-menu bg-hover fw-bolder"> <img src="{% static 'images/icons/statistique.png'%}" alt="Icone statistique" class = "me-3 custom-menu-icon">Statistique</a>
 
-            <a href="" class = "nav-link custom-ps-menu bg-hover fw-bolder custom-icon-setting"> <i class="fa fa-gear me-3"></i>Paramètres</a>
+            <div class = "custom-icon-setting d-flex flex-row">
+                <label for="theme-mode"><i class = "fa fa-sun custom-icon-sun"></i></label>
+
+                <div class="form-check form-switch">
+                    <input class="form-check-input custom-switch-input" type="checkbox" role="switch" id="theme-mode">
+                  </div>
+
+                <label for="theme-mode"><i class = "fa fa-moon custom-icon-moon"></i></label>
+            </div>
+            <a href="" class = "nav-link custom-ps-menu bg-hover fw-bolder"> <i class="fa fa-gear me-3"></i>Paramètres</a>
             <a href="" class = "nav-link mt-2 custom-ps-menu bg-hover fw-bolder"> <i class="fa fa-sign-out me-3"></i>Se déconnecter</a>
         </nav>
 

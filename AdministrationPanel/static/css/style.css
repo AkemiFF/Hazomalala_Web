@@ -14,6 +14,11 @@
     src: url(../webfonts/Poppins/Poppins-Regular.ttf);
 }
 
+@font-face {
+    font-family: 'Kanit';
+    src: url(../webfonts/Kanit/Kanit-Regular.ttf);
+}
+
 * {
     font-family: 'Poppins';
     font-size: 0.97em ;
@@ -21,6 +26,10 @@
 
 .exo2-font {
     font-family: 'Exo2';
+}
+
+.kanit-font {
+    font-family: 'Kanit';
 }
 
 .text-marin-blue {
@@ -65,7 +74,7 @@
 }
 
 .custom-icon-setting {
-    margin-top: 7.5rem;
+    margin : 6.5rem 0rem 1rem 2.5rem;
 }
 
 .custom-ps-menu {
@@ -78,6 +87,22 @@
     min-height: 19rem;
     height: 100%;
 }
+
+.custom-switch-input {
+    font-size: 1.7em;
+    cursor: pointer;
+}
+
+.custom-icon-sun {
+    margin : 0.75rem 3rem 0rem 0rem;
+    cursor : pointer;
+}
+
+.custom-icon-moon {
+    margin : 0.75rem 0rem 0rem 0.5rem;
+    cursor : pointer;
+}
+
 
 
 
