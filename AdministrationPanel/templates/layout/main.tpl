@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="{% static 'css/dashboard.css' %}">
     <link rel="stylesheet" href="{% static 'css/feature.css' %}">
     <link rel="stylesheet" href="{% static 'css/header.css' %}">
+    <link rel="stylesheet" href="{% static 'css/login.css' %}">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.9/flatpickr.min.css">
     <link rel="stylesheet" href="{% static 'resources/fontawesome/all.css' %}">
     <link rel="stylesheet" href="{% static 'resources/fontawesome/brands.css' %}">

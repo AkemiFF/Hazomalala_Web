@@ -1,4 +1,4 @@
-{% extends 'layout/main.html' %}
+{% extends 'layout/main.tpl' %}
 {% load static %}
 
 {% block header %}

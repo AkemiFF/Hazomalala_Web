@@ -1,0 +1,41 @@
+.custom-login-container {
+    width : 55% ! important;
+    height: 30rem ! important;
+    margin-top: 5rem;
+}
+
+.custom-logo-login-container {
+    margin-left: -1rem;
+    width : 47.5%;
+}
+
+.custom-logo-login {
+    width : 16rem;
+    margin : 6rem 0rem 0rem 4.25rem;
+}
+
+.custom-input-login-admin {
+    border-top : none;
+    border-right: none;
+    border-left: none;
+    outline : none;
+    border-bottom: 2px solid var(--main-focus-accent-color);
+    width : 100%;
+    padding-top: 0.35rem;
+    padding-bottom: 0.5rem;
+    text-indent : 1.75rem;
+}
+
+.custom-icon-input-login-admin {
+    top : 0.5rem;
+    left : 0.25rem;
+} 
+
+.custom-btn-login-admin {
+    border-radius: 25px;
+    width : 100%;
+}
+
+.custom-link-register {
+    font-size: 0.8em;
+}
