@@ -64,10 +64,46 @@
     background-color: #badbe6;
 }
 
+.custom-logo-menu-container {
+    border-radius: 45px;
+    height: 14rem;
+    margin-top: -6rem;
+}
+
 .custom-text-hazomalala {
     font-size: 1.7em;
+    margin-top: 8rem;
 }
 
 .custom-logo-menu {
     width : 4rem;
+    margin-top: 7rem;
+}
+
+.custom-icon-menu {
+    width : 25px;
+}
+
+.custom-menu-container {
+    width : 27.5%;
+    height: 4rem;
+    border-radius: 35px;
+    margin-top : 2rem;
+}
+
+.custom-text-cart {
+    font-size: 1.1em;
+}
+
+.custom-menu-nav-link {
+    margin-top: 0.75rem;
+    color : var(--main-focus-accent-color);
+}
+
+.custom-btn-menu-container {
+    margin-top: 2.5rem;
+}
+
+.custom-search-icon-menu {
+    font-size: 1.7em;
 }

@@ -3,22 +3,29 @@
 
 {% block header %}
     <header class = "d-flex flex-row justify-content-between">
-        <div class = "bg-cloud-blue custom-logo-menu-container">
-            <a href="" class = "text-decoration-none exo2-font text-marin-blue custom-text-hazomalala"><img src="{% static 'userInterface/images/logo/png/logo-hazomalala-bleu-nuit.png' %}" alt="Logo de Hazomalala" class = "img-fluid custom-logo-menu">
-                HAZOMALALA
+        <div class = "bg-cloud-blue custom-logo-menu-container p-3">
+            <a href="" class = "text-decoration-none text-marin-blue d-flex flex-row">
+                <img src="{% static 'userInterface/images/logo/png/logo-hazomalala-bleu-nuit.png' %}" alt="Logo de Hazomalala" class = "img-fluid custom-logo-menu">
+                <p class = "custom-text-hazomalala exo2-font">HAZOMALALA</p>
             </a>
         </div>
 
-        <nav>
-            <p></p>
+        <nav class = "nav navbar-nav bg-cloud-blue custom-menu-container">
+            <a href="" class = "nav-link"><img src="{% static 'userInterface/images/icons/accueil.png' %}" alt="Icône accueil" class = "img-fluid custom-icon-menu ms-5 mt-2"></a>
+            <a href="" class = "nav-link text-marin-blue fw-bolder custom-menu-nav-link">Produits</a>
+            <a href="" class = "nav-link text-marin-blue fw-bolder custom-menu-nav-link">Support</a>
+            <a href="" class = "nav-link text-marin-blue fw-bolder custom-menu-nav-link me-3"><i class = "fa fa-search"></i></a>
         </nav>
 
-        <div>
+        <a href = "" class = "text-decoration-none link-dark d-flex flex-row mt-5">
+            <i class = "fa fa-shopping-cart custom-text-cart mt-1"></i>
+            <p class = "ms-2 custom-text-cart">Panier</p>
+        </a>
 
-        </div>
 
-        <div>
-
+        <div class = "custom-btn-menu-container mt-5">
+            <a href="" class = "bg-gray text-decoration-none link-dark py-2 px-3 rounded">Se connecter</a>
+            <a href="" class = "bg-marin-blue text-decoration-none text-light py-2 px-3 rounded ms-2">S'inscrire</a>
         </div>
     </header>
 {% endblock %}
