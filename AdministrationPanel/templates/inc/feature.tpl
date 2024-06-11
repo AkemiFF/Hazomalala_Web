@@ -36,7 +36,7 @@
         <div class = "mt-2 mx-4">
             <div class = "d-flex flex-row bg-white shadow-sm custom-total-container">
                 <div>
-                    <img src="{% static 'images/icons/visite.png' %}" alt="Icone total" class = "img-fluid custom-icon-total">
+                    <img src="{% static 'AdministrationPanel/images/icons/visite.png' %}" alt="Icone total" class = "img-fluid custom-icon-total">
                 </div>
 
                 <div class = "ms-4">
@@ -47,7 +47,7 @@
 
             <div class = "d-flex flex-row bg-white shadow-sm custom-total-container mt-3">
                 <div>
-                    <img src="{% static 'images/icons/docteur.png' %}" alt="Icone total" class = "img-fluid custom-icon-total">
+                    <img src="{% static 'AdministrationPanel/images/icons/docteur.png' %}" alt="Icone total" class = "img-fluid custom-icon-total">
                 </div>
 
                 <div class = "ms-4">
@@ -58,7 +58,7 @@
 
             <div class = "d-flex flex-row bg-white shadow-sm custom-total-container mt-3">
                 <div>
-                    <img src="{% static 'images/icons/patient.png' %}" alt="Icone total" class = "img-fluid custom-icon-total">
+                    <img src="{% static 'AdministrationPanel/images/icons/patient.png' %}" alt="Icone total" class = "img-fluid custom-icon-total">
                 </div>
 
                 <div class = "ms-4">
@@ -69,7 +69,7 @@
 
             <div class = "d-flex flex-row bg-white shadow-sm custom-total-container mt-3">
                 <div>
-                    <img src="{% static 'images/icons/pharmacie.png' %}" alt="Icone total" class = "img-fluid custom-icon-total">
+                    <img src="{% static 'AdministrationPanel/images/icons/pharmacie.png' %}" alt="Icone total" class = "img-fluid custom-icon-total">
                 </div>
 
                 <div class = "ms-4">
@@ -80,7 +80,7 @@
 
             <div class = "d-flex flex-row bg-white shadow-sm custom-total-container mt-3">
                 <div>
-                    <img src="{% static 'images/icons/medicament.png' %}" alt="Icone total" class = "img-fluid custom-icon-total">
+                    <img src="{% static 'AdministrationPanel/images/icons/medicament.png' %}" alt="Icone total" class = "img-fluid custom-icon-total">
                 </div>
 
                 <div class = "ms-4">
@@ -127,7 +127,7 @@
                     <button type="submit" class = "btn bg-cloud-blue custom-btn-form-product w-75">Valider</button>
 
                     <button type = "button" class = "btn bg-marin-blue custom-btn-profit-overview ms-4">
-                        <div class = "custom-icon-profit-overview"><img src="{% static 'images/icons/arrow-up-right.png' %}" alt="Icône Hazomalala" class = "img-fluid"></div>
+                        <div class = "custom-icon-profit-overview"><img src="{% static 'AdministrationPanel/images/icons/arrow-up-right.png' %}" alt="Icône Hazomalala" class = "img-fluid"></div>
                         <div class = "custom-text-profit-overview text-white">Détails</div>
                     </button>
                 </div>

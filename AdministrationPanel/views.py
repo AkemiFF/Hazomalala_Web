@@ -6,7 +6,7 @@ def dashboard(request):
     return render (request, 'pages/dashboard.tpl', {'current_date' : current_date})
 
 def login(request):
-    return render (request, 'pages/login.html')
+    return render (request, 'pages/login.tpl')
 
 
 # Create your views here.

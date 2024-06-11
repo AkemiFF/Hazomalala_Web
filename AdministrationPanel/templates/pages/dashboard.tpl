@@ -15,7 +15,7 @@
                         <div class = "d-flex flex-row justify-content-between">
                             <a href="" class="btn bg-cloud-blue custom-order-realtime">Suivi en temps réels <i class = "fa fa-arrow-down ms-3"></i></a>
                             <button type = "button" class = "btn bg-marin-blue custom-btn-profit-overview ms-4">
-                                <div class = "custom-icon-profit-overview"><img src="{% static 'images/icons/arrow-up-right.png' %}" alt="Icône Hazomalala" class = "img-fluid"></div>
+                                <div class = "custom-icon-profit-overview"><img src="{% static 'AdministrationPanel/images/icons/arrow-up-right.png' %}" alt="Icône Hazomalala" class = "img-fluid"></div>
                                 <div class = "custom-text-profit-overview text-white">Détails</div>
                             </button>
                         </div>
@@ -107,7 +107,7 @@
                         <button type = "button" class="btn bg-marin-blue custom-epoque-year text-light">2024<i class = "fa fa-arrow-down ms-4"></i></button>
 
                         <button type = "button" class = "btn bg-marin-blue custom-btn-profit-overview ms-4">
-                            <div class = "custom-icon-profit-overview"><img src="{% static 'images/icons/arrow-up-right.png' %}" alt="Icône Hazomalala" class = "img-fluid"></div>
+                            <div class = "custom-icon-profit-overview"><img src="{% static 'AdministrationPanel/images/icons/arrow-up-right.png' %}" alt="Icône Hazomalala" class = "img-fluid"></div>
                             <div class = "custom-text-profit-overview text-white">Détails</div>
                         </button>
                     </div>
@@ -145,7 +145,7 @@
                     <div class = "d-flex flex-row justify-content-between">
                         <h2 class="h5 text-light">Gestion des remises</h2>
                         <button type = "button" class = "btn bg-cloud-blue custom-btn-remise-overview ms-4">
-                            <div class = "custom-icon-remise-overview"><img src="{% static 'images/icons/arrow-up-right-black.png' %}" alt="Icône Hazomalala" class = "img-fluid"></div>
+                            <div class = "custom-icon-remise-overview"><img src="{% static 'AdministrationPanel/images/icons/arrow-up-right-black.png' %}" alt="Icône Hazomalala" class = "img-fluid"></div>
                             <div class = "custom-text-remise-overview">Gérer</div>
                         </button>
                     </div>
@@ -156,7 +156,7 @@
 
                             <div class = "d-flex flex-row">
                                 <div class = "bg-marin-blue custom-icon-remise-item-container">
-                                    <img src = "{% static 'images/icons/promotion.png' %}" alt = "Icone remise" class = "img-fluid custom-icon-remise-item"/>
+                                    <img src = "{% static 'AdministrationPanel/images/icons/promotion.png' %}" alt = "Icone remise" class = "img-fluid custom-icon-remise-item"/>
                                 </div>
                                
                                 <div class = "custom-text-remise-item-container">
@@ -166,7 +166,7 @@
 
                             <div class = "d-flex flex-row mt-2">
                                 <div class = "bg-marin-blue custom-icon-remise-item-container">
-                                    <img src = "{% static 'images/icons/produit.png' %}" alt = "Icone remise" class = "img-fluid custom-icon-remise-item"/>
+                                    <img src = "{% static 'AdministrationPanel/images/icons/produit.png' %}" alt = "Icone remise" class = "img-fluid custom-icon-remise-item"/>
                                 </div>
                                
                                 <div class = "custom-text-remise-item-container">
@@ -187,7 +187,7 @@
                             
                             <div class = "d-flex flex-row mt-2">
                                 <div class = "bg-marin-blue custom-icon-remise-item-container">
-                                    <img src = "{% static 'images/icons/prix.png' %}" alt = "Icone remise" class = "img-fluid custom-icon-remise-item"/>
+                                    <img src = "{% static 'AdministrationPanel/images/icons/prix.png' %}" alt = "Icone remise" class = "img-fluid custom-icon-remise-item"/>
                                 </div>
                                
                                 <div class = "custom-text-remise-item-container">
@@ -201,7 +201,7 @@
 
                             <div class = "d-flex flex-row">
                                 <div class = "bg-marin-blue custom-icon-remise-item-container">
-                                    <img src = "{% static 'images/icons/promotion.png' %}" alt = "Icone remise" class = "img-fluid custom-icon-remise-item"/>
+                                    <img src = "{% static 'AdministrationPanel/images/icons/promotion.png' %}" alt = "Icone remise" class = "img-fluid custom-icon-remise-item"/>
                                 </div>
                                
                                 <div class = "custom-text-remise-item-container">
@@ -211,7 +211,7 @@
 
                             <div class = "d-flex flex-row mt-2">
                                 <div class = "bg-marin-blue custom-icon-remise-item-container">
-                                    <img src = "{% static 'images/icons/produit.png' %}" alt = "Icone remise" class = "img-fluid custom-icon-remise-item"/>
+                                    <img src = "{% static 'AdministrationPanel/images/icons/produit.png' %}" alt = "Icone remise" class = "img-fluid custom-icon-remise-item"/>
                                 </div>
                                
                                 <div class = "custom-text-remise-item-container">
@@ -236,7 +236,7 @@
 
                             <div class = "d-flex flex-row mt-2">
                                 <div class = "bg-marin-blue custom-icon-remise-item-container">
-                                    <img src = "{% static 'images/icons/prix.png' %}" alt = "Icone remise" class = "img-fluid custom-icon-remise-item"/>
+                                    <img src = "{% static 'AdministrationPanel/images/icons/prix.png' %}" alt = "Icone remise" class = "img-fluid custom-icon-remise-item"/>
                                 </div>
                                
                                 <div class = "custom-text-remise-item-container">
@@ -246,7 +246,7 @@
 
                             <div class = "d-flex flex-row mt-2">
                                 <div class = "bg-marin-blue custom-icon-remise-item-container">
-                                    <img src = "{% static 'images/icons/declenchement.png' %}" alt = "Icone remise" class = "img-fluid custom-icon-remise-item"/>
+                                    <img src = "{% static 'AdministrationPanel/images/icons/declenchement.png' %}" alt = "Icone remise" class = "img-fluid custom-icon-remise-item"/>
                                 </div>
                                
                                 <div class = "custom-text-remise-item-container">
