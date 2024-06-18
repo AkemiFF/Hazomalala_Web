@@ -38,6 +38,15 @@
     outline: none;
 }
 
+.custom-google-icon {
+    width : 20px;
+}
+
 .custom-link-register {
     font-size: 0.8em;
+}
+
+.custom-or {
+    color : rgba(0, 0, 0, 0.205);
+    bottom : 4rem;
 }

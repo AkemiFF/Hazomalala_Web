@@ -18,8 +18,8 @@
                 <div class = "p-5">
                     <h1 class = "h2 kanit-font text-marin-blue fw-bolder">Connexion</h1>
 
-                    <form class = "mt-5">
-                        <div class="mb-4">
+                    <form class = "mt-4 position-relative">
+                        <div class="mb-3">
                             <label for="emailAdmin">Adresse e-mail</label><br>
                             <div class = "position-relative">
                                 <i class = "fa fa-envelope position-absolute custom-icon-input-login-admin"></i>
@@ -27,7 +27,7 @@
                             </div>
                         </div>
 
-                        <div class = "mt-5">
+                        <div class = "mt-4">
                             <label for="mdpAdmin">Mot de passe</label><br>
                             <div class = "position-relative">
                                 <i class = " fa fa-lock position-absolute custom-icon-input-login-admin"></i>
@@ -36,6 +36,8 @@
                         </div>
 
                         <button type="submit" class = "bg-cloud-blue text-marin-blue d-block custom-btn-login-admin mt-5 py-2">Se connecter</button>
+
+                        <button type="submit" class = "bg-marin-blue text-marin-blue d-block custom-btn-login-admin mt-3 py-2 text-light"><img src="{% static 'userInterface/images/icons/google.png' %}" alt="Logo de Google" class = "img-fluid custom-google-icon me-3"> Se connecter avec Google</button>
 
                         <p class = "mt-5 custom-link-register">Vous n'avez pas encore de compte ? <a href="" class = "link-dark">Inscrivez-vous</a></p>
                     </form>
