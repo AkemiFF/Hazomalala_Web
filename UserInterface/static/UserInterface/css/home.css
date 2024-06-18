@@ -1,3 +1,192 @@
 .home-container {
     margin : 0rem 4rem;
 }
+
+.custom-item-home1 {
+    border-radius: 40px;
+    width : 14rem;
+    height: 22rem;
+    top : 0.5rem;
+}
+
+.custom-img-medicament-home {
+    width : 15rem;
+    margin-top: 3rem;
+}
+
+.custom-item-home2 {
+    border-radius: 35px;
+    width : 14rem;
+    height: 12rem;
+    left : 15rem;
+    top : 0.25rem;
+}
+
+.custom-item-home3 {
+    border-radius: 35px;
+    width : 14rem;
+    height: 12rem;
+    left : 15rem;
+    top : 13rem;
+}
+
+.custom-img-stethoscope2 {
+    width : 11rem;
+    margin-left: 1.5rem;
+}
+
+.custom-logo-bleu-ciel {
+    width : 10rem;
+    margin: 1.25rem 0rem 0rem 2rem;
+}
+
+.custom-item-home4 {
+    border-radius: 25px;
+    width : 14.75rem;
+    height: 9rem;
+    top : 23rem;
+}
+
+.custom-btn-product-home {
+    width : 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    transition : all .3s linear;
+    border : none;
+    outline : none;
+}
+
+.custom-icon-product-home {
+    width : 1rem;
+    margin-top: -0.25rem;
+    margin-left: 0rem;
+}
+
+.custom-btn-product-home:hover {
+    transition : all .3s linear;
+    width : 6.25rem;
+    border-radius: 35px;
+}
+
+.custom-btn-product-home:hover .custom-icon-product-home {
+    width : 1rem;
+    transition : all .3s linear;
+}
+
+.custom-text-product-home {
+    opacity: 0;
+    font-size: 0.85em;
+    transition: opacity .3s linear;
+    margin: -1rem 0rem 0rem 0.25rem;
+}
+
+.custom-btn-product-home:hover .custom-text-product-home {
+    opacity: 1;
+    transition : all .3s linear;
+}
+
+.custom-btn-bag-home {
+    width : 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    transition : all .3s linear;
+    border : none;
+    outline : none;
+}
+
+.custom-icon-bag-home {
+    width : 1rem;
+    margin-top: -0.25rem;
+    margin-left: 0rem;
+}
+
+.custom-btn-bag-home:hover {
+    transition : all .3s linear;
+    width : 6.25rem;
+    border-radius: 35px;
+}
+
+.custom-btn-bag-home:hover .custom-icon-bag-home {
+    width : 1rem;
+    transition : all .3s linear;
+}
+
+.custom-text-bag-home {
+    opacity: 0;
+    font-size: 0.85em;
+    transition: opacity .3s linear;
+    margin: -1rem 0rem 0rem 0.25rem;
+}
+
+.custom-btn-bag-home:hover .custom-text-bag-home {
+    opacity: 1;
+    transition : all .3s linear;
+}
+
+.custom-partner-logo {
+    width : 35px;
+    height : 35px;
+    border-radius : 50%;
+}
+
+.custom-section-intro-home {
+    margin : 1.5rem 0rem 0rem 35rem;
+}
+
+.custom-title-intro-home {
+    width : 70%;
+    font-size: 3.5em;
+}
+
+.custom-p-intro-home {
+    line-height: 25px;
+}
+
+.custom-link-about-home {
+    width : 35%;
+    border-radius: 35px;
+}
+
+.custom-icon-link-about-home {
+    font-size: 1.2em;
+    margin: -0.5rem 0rem 0rem -0.5rem;
+}
+
+.custom-icon-link-about-home-container {
+    width : 20px;
+    height: 20px;
+    border-radius: 50%;
+    padding : 1.5rem;
+    top : 0.15rem;
+    right : 0.15rem;
+}
+
+.custom-aside-home {
+    margin-top : 5rem;
+    width : 65%;
+    border-bottom: 2px solid var(--main-focus-accent-color);
+}
+
+.custom-icon-aside-container {
+    top : 0.5rem;
+    right : -3rem;
+    width : 2.5rem;
+    height : 2.5rem;
+    border-radius: 50%;
+    padding : 0.5rem;
+    cursor: pointer;
+}
+
+.custom-icon-aside {
+    width : 2.5rem;
+}
+
+.custom-copyright-home {
+    font-size: 0.7em;
+    margin : 2rem -3.25rem 0rem 8rem;
+}
+

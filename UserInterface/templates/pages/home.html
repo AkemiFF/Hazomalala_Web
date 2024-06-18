@@ -6,10 +6,84 @@
 {% endblock %}
 
 {% block body %}
-    <body class = "home-container">
+    <body class = "home-container overflow-hidden">
         {% block main %}
             {% include 'inc/header.html' %}
-                
+            
+            <main class = "d-flex flex-row">
+                <section class = "position-relative ms-2">
+                    <div class = "position-absolute bg-gray custom-item-home1 p-3">   
+                        <div class = "d-flex flex-row justify-content-between mt-3">
+                            <div>
+                                <h2 class="h6"><a href="" class = "text-marin-blue fw-bolder text-decoration-none">Produit</a></h2>
+                                <div class = "d-flex flex-row"> 
+                                    <i class="fa fa-star text-warning"></i>
+                                    <i class="fa fa-star text-warning"></i>
+                                    <i class="fa fa-star text-warning"></i>
+                                    <i class="fa fa-star text-warning"></i>
+                                    <i class="fa fa-star text-warning"></i>
+                                </div>
+                            </div>
+
+                            <div class = "d-flex flex-column">
+                                <button type = "button" class = "bg-marin-blue custom-btn-product-home ms-4">
+                                    <div class = "custom-icon-product-home"><img src="{% static 'userInterface/images/icons/arrow-up-right.png' %}" alt="Icône Hazomalala" class = "img-fluid"></div>
+                                    <div class = "custom-text-product-home text-white">Explorer</div>
+                                </button>
+                                
+                                <button type = "button" class = "bg-marin-blue custom-btn-bag-home ms-4 mt-3">
+                                    <div class = "custom-icon-bag-home"><img src="{% static 'userInterface/images/icons/course-bag.png' %}" alt="Icône Hazomalala" class = "img-fluid"></div>
+                                    <div class = "custom-text-bag-home text-white">Courses</div>
+                                </button>
+                            </div>
+                        </div>
+
+                        <img src="{% static 'userInterface/images/assets/medicament-home.png' %}" alt="Photo de médicament" class = "img-fluid custom-img-medicament-home">
+                    </div>
+ 
+                    <div class = "position-absolute bg-cloud-blue custom-item-home2">
+                        <img src="{% static 'userInterface/images/assets/stethoscope.png' %}" alt="Image de stéthoscope" class = "img-fluid custom-img-stethoscope2">
+                    </div>
+
+                    <div class = "position-absolute bg-marin-blue custom-item-home3">
+                        <img src="{% static 'userInterface/images/logo/png/logo-bleu-ciel.png' %}" alt="Image de stéthoscope" class = "img-fluid custom-logo-bleu-ciel">
+                    </div>
+
+                    <div class = "position-absolute bg-marin-blue custom-item-home4 p-3">
+                        <h3 class="h5 text-light w-75">Nos partenaires</h3>
+                        <div class = "d-flex flex-row mt-3">
+                            <a href="" title = "Ordre National des Pharmaciens"><img src="{% static 'userInterface/images/logo/png/onp.jpg' %}" alt="" class = "custom-partner-logo img-fluid"></a>
+                            <a href="" title = "Ministère de la Santé Publique"><img src="{% static 'userInterface/images/logo/png/msp.jpg' %}" alt="" class = "custom-partner-logo img-fluid ms-2"></a>
+                            <a href=""  title = "UCP - Unité de Coordination des Projets"><img src="{% static 'userInterface/images/logo/png/ucp.jpg' %}" alt="" class = "custom-partner-logo img-fluid ms-2"></a>
+                        </div>
+                    </div>
+                </section>
+
+                <section class = "custom-section-intro-home">
+                    <h1 class = "text-marin-blue fw-bolder custom-title-intro-home">Besoin urgence en médicaments ?</h1>
+
+                    <p class = "fs-5 w-75 custom-p-intro-home mt-4">Nous vous offrons une large sélection, livrée rapidement avec une qualité garantie, où que vous soyez.</p>
+
+                    <a href="" class = "bg-marin-blue py-3 px-5 d-block custom-link-about-home mt-4 text-light text-decoration-none position-relative h6">En savoir plus <div class = "custom-icon-link-about-home-container bg-white position-absolute"><i class = "fa fa-arrow-right custom-icon-link-about-home rounded-circle text-dark position-absolute"></i></div></a>
+
+                    <aside class = "custom-aside-home position-relative">
+                        <a href="" class = "text-decoration-none">
+                            <h4 class = "text-marin-blue fw-bolder">Découvrez nos services médicaux, conçus pour votre bien-être optimal</h4>
+
+                        <div class = "bg-marin-blue custom-icon-aside-container position-absolute">   
+                            <img src="{% static 'userInterface/images/icons/arrow-up-right.png' %}" alt="Icone Hazomalala" class = "img-fluid custom-icon-aside">
+                        </div>
+                        </a>
+                    </aside>
+                </section>
+
+            </main>
+        {% endblock %}
+
+        {% block footer %}
+            <footer class = "footer float-end">
+                <p class = "custom-copyright-home">Copyright 2024 - Tous droits réservés</p>
+            </footer>
         {% endblock %}
     </body>
 {% endblock %}
